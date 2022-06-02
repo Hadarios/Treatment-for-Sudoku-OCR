@@ -16,6 +16,10 @@ make
 ```
 Default file is `my_image.jpg`.
 
+Each filter used is applied individually, and you can apply the next one by pressing any key.
+
+At the end of the program, the grid is cut in 81 squares and each square is saved is the current directory in the Bitmap format.
+
 # Filters
 The filters applied are, in order :
 
@@ -43,4 +47,4 @@ Now, if this count divided by the diagonal is between 0.117 and 0.123, then the 
 Note that this specific interval works with my pretreatment, but probably will not work with a different one : for example, when I only changed my dilatation, the interval wasn't right at all. Try multiple intervals to find the one that fits your pretreatment the most.
 
 # Contact
-If needed, you can contact me at <nolan.djellal@gmail.com> for more information.
+As this project was made through an entire semester while I was learning C, the code might be a bit messy. If needed, you can contact me at <nolan.djellal@gmail.com> for more information and explanations.
